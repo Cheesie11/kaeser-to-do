@@ -3,7 +3,6 @@
 import { createContext, useEffect, useState, ReactNode } from 'react';
 
 export const ThemeContext = createContext({
-    theme: 'light',
     changeTheme: (theme: string) => {}
 });
 
